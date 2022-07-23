@@ -1,0 +1,30 @@
+ * {
+border: 1px solid red;
+} 
+
+html {
+    width: 100vw;
+    height: 100vw;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+/* ~~~~~NAV SECTION */
+.main-nav-wrapper {
+    width: 100%;
+    height: 10%;
+}
+
+.nav-container {
+    width: 100%;
+    height: 20%;
+}
+
+
+/* ~~~~~MAIN SECTION */
+
+.main {
+
+}
