@@ -21,8 +21,11 @@ body {
     width: 100%;
     height: 50%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+
+/* ~~~~UPPER NAV CONTAINER */
 
 #upper-nav-container {
     display: flex;
@@ -35,6 +38,49 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+/* ~~~~LOWER NAV CONTAINER */
+
+#lower-nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons-box {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-button {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.company-logo-box {
+    width: 20%;
+    height: 100%;
+}
+
+.company-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-text {
+    margin: 0;
+    width: 80%;
+    height: 90%;
 }
 
 
