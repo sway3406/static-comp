@@ -3,8 +3,8 @@ border: 1px solid red;
 } 
 
 html {
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -87,5 +87,59 @@ body {
 /* ~~~~~MAIN SECTION */
 
 .main {
+ width: 100%;
+ height: 100%;
+}
 
+.main-header {
+    display: flex;
+    justify-self: flex-start
+}
+
+.cards-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    width:98%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.user-card {
+    width: 20%;
+    height: 70%;
+    margin: 15px;
+}
+
+/* ~~~~~~ USER CARD ~~~~~~ */
+
+.user-image {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-image {
+    width: 20%;
+    height: 20%;
+    display: flex;
+
+}
+
+.views-box {
+    width: 20%;
+    height: 20%;
+}
+
+.user-card-data {
+    width: 100;
+    height: 70%;
 }
